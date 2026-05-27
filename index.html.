@@ -331,6 +331,37 @@
     }
 
     .lifestyle {
+
+    .trust {
+      background: var(--mist);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 18px;
+      margin-top: 36px;
+    }
+
+    .trust-card {
+      background: var(--white);
+      padding: 26px;
+      border-radius: 24px;
+      border: 1px solid rgba(47,51,44,.08);
+      box-shadow: 0 6px 24px rgba(47,51,44,.04);
+    }
+
+    .trust-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      color: var(--deep);
+    }
+
+    .trust-card p {
+      color: #5c6158;
+      font-size: .92rem;
+      line-height: 1.6;
+    }
       background: var(--mist);
     }
 
@@ -439,6 +470,7 @@
       }
 
       .service-grid,
+      .trust-grid,
       .steps,
       .about-layout,
       .faq-grid,
@@ -489,6 +521,7 @@
         <div class="nav-links">
           <a href="#services">Services</a>
           <a href="#about">About</a>
+          <a href="#process">Process</a>
           <a href="#faq">FAQ</a>
           <a class="btn btn-dark" href="https://calendly.com/sena-strandshifts" target="_blank">Schedule</a>
         </div>
@@ -502,8 +535,8 @@
         <p class="eyebrow">Senior Relocation Concierge</p>
 
         <h1>
-          Beautiful transitions,<br>
-          thoughtfully supported.
+          Making room for more<br>
+          of what truly matters.
         </h1>
 
         <p class="hero-text">
@@ -566,7 +599,7 @@
         </div>
 
         <div class="quote-tile">
-          <span>Making space for more of the stuff that truly matters.</span>
+          <span>Making room for more of what truly matters.</span>
         </div>
       </div>
     </section>
@@ -596,7 +629,41 @@
       </div>
     </section>
 
-    <section class="process">
+    <section class="trust">
+      <div class="section-inner">
+        <p class="section-tag">Why families choose Strand Shifts</p>
+        <h2>Trusted support for meaningful transitions.</h2>
+
+        <div class="trust-grid">
+          <div class="trust-card">
+            <h3>Personalized Guidance</h3>
+            <p>Every transition is unique. We listen carefully, understand your specific needs, and create support tailored to your situation.</p>
+          </div>
+
+          <div class="trust-card">
+            <h3>Calm Communication</h3>
+            <p>We bring clarity and reassurance to every conversation, helping families feel heard, supported, and less overwhelmed.</p>
+          </div>
+
+          <div class="trust-card">
+            <h3>Trusted Coordination</h3>
+            <p>From vendors to timelines, we manage the logistics so you can focus on what matters—supporting each other through change.</p>
+          </div>
+
+          <div class="trust-card">
+            <h3>Thoughtful Support</h3>
+            <p>We care about the emotional side of moving. Every step is handled with compassion, respect, and genuine understanding.</p>
+          </div>
+
+          <div class="trust-card">
+            <h3>Local Expertise</h3>
+            <p>Based in Denver, Colorado, we know the market, the communities, and the nuances of senior transitions in our region.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
       <div class="section-inner">
         <p class="section-tag">How it works</p>
         <h2>Simple, steady, supported.</h2>
